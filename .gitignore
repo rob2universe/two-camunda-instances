@@ -1,0 +1,4 @@
+/.idea/
+/two-camunda-instances.iml
+/cam1instance/target/
+/cam2instance/target/

@@ -1,0 +1,18 @@
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/cam2?autoReconnect=true
+
+  username: cam2
+  password: cam2
+  driver-class-name: org.postgresql.Driver
+spring.h2.console.enabled: true
+camunda.bpm:
+  admin-user:
+    id: cam2
+    password: cam2
+    firstName: Tac
+  filter:
+    create: All tasks
+server.port: 8082
+server:
+  servlet:
+    context-path: /cam2
