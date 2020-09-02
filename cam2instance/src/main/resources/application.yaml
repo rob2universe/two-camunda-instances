@@ -3,7 +3,6 @@ spring.datasource:
   username: cam2
   password: cam2
   driver-class-name: org.postgresql.Driver
-spring.h2.console.enabled: true
 camunda.bpm:
   admin-user:
     id: cam2
