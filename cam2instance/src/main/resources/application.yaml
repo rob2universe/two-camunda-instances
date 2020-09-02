@@ -1,6 +1,5 @@
 spring.datasource:
-  url: jdbc:postgresql://localhost:5432/cam2?autoReconnect=true
-
+  url: jdbc:postgresql://localhost:5432/postgres?autoReconnect=true
   username: cam2
   password: cam2
   driver-class-name: org.postgresql.Driver
@@ -16,3 +15,8 @@ server.port: 8082
 server:
   servlet:
     context-path: /cam2
+camunda:
+  bpm:
+    database:
+      schema-name: cam2
+      table-prefix: cam2.
