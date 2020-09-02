@@ -11,7 +11,7 @@ Schemas will be created automatically.
 
 The web applications of the two instance will be on http://localhost:8081/cam1 and http://localhost:8082/cam2
 
-###Essential Config
+### Essential Config
 **spring.datasource:** and **camunda:bpm:database:** sections in
 [application.yaml](cam1instance/src/main/resources/application.yaml) for cam1 and
 [application.yaml](cam2instance/src/main/resources/application.yaml) for cam2
